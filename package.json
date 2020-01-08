@@ -6,7 +6,7 @@
   "dependencies": {
     "antd": "^3.23.2",
     "eslint-plugin-flowtype": "^2.50.3",
-    "gatsby": "^2.15.15",
+    "gatsby": "^2.18.18",
     "gatsby-cli": "^2.7.47",
     "gatsby-image": "^2.2.19",
     "gatsby-plugin-manifest": "^2.2.16",
@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "gatsby-plugin-remove-trailing-slashes": "^2.1.6",
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^2.2.0",
     "mem": "^5.1.1",
     "prettier": "^1.18.2"
   },
