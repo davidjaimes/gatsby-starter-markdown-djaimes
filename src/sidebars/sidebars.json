@@ -1,28 +1,26 @@
 [
   {
-    "entry": "Docs",
-    "name": "Docs",
+    "entry": "/",
+    "name": "/",
     "child_entries": [
-      "Get Started",
-      "Guide"
+      "macOS",
+      "Astronomy",
+      "Blog"
     ]
   },
   {
-    "entry": "Get Started",
-    "name": "Get Started",
+    "entry": "macOS",
+    "name": "macOS",
     "items": [
-      "docs/get-started/introduction",
-      "docs/get-started/quick-start"
+      "macOS/data-science-env-setup"
     ]
   },
   {
-    "entry": "Guide",
-    "name": "Guide",
+    "entry": "Astronomy",
+    "name": "Astronomy",
     "items": [
-      "docs/guide/anchor",
-      "docs/guide/contents",
-      "docs/guide/menu-items",
-      "docs/guide/sidebar"
+      "astro/eclipsing-binaries",
+      "astro/jskycalc"
     ]
   },
   {

@@ -7,13 +7,13 @@ import { connect } from 'react-redux';
 class Header extends Component {
 
   render() {
-    const { 
+    const {
       siteTitle,
       sidebarDocked,
       menuOpen,
       nMenuItem,
     } = this.props
-    
+
     return (
       <div
         style={{
@@ -22,7 +22,7 @@ class Header extends Component {
           width: "100%",
           height: (menuOpen && !sidebarDocked) ? nMenuItem*32 + 50 : 55,
           marginBottom: 20,
-          background: 'cornflowerblue',
+          background: '#24292e',
         }}
       >
         <div
@@ -41,7 +41,7 @@ class Header extends Component {
               <Link
                 to="/"
                 style={{
-                  color: 'white',
+                  color: '#fafbfc',
                   textDecoration: 'none',
                 }}
               >

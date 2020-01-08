@@ -25,7 +25,7 @@ class ResponsiveTopBar extends Component {
   }
 
   render() {
-    const { 
+    const {
       sidebarOpen,
       anchorOpen,
       menuOpen,
@@ -45,7 +45,7 @@ class ResponsiveTopBar extends Component {
           position: "absolute",
           width: "100%",
           height: 40,
-          background: 'aliceblue',
+          background: '#e1e4e8',
           marginTop: '-20px',
         }}
       >
@@ -80,7 +80,7 @@ class ResponsiveTopBar extends Component {
           left: 0,
           right: 0,
           bottom: 0,
-          backgroundColor: 'white',
+          backgroundColor: '#24292e',
         }}>
           <div style={{
             position: "absolute",
@@ -105,7 +105,7 @@ class ResponsiveTopBar extends Component {
           right: 0,
           bottom: 0,
           overflowY: "auto",
-          backgroundColor: 'white',
+          backgroundColor: '#24292e',
           WebkitOverflowScrolling: "touch",
           transition: "left .3s ease-out, right .3s ease-out",
         }}>
