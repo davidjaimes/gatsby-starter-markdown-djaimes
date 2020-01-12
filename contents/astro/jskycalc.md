@@ -23,6 +23,7 @@ Skycalc expedites the "time-and-the-sky" calculations needed by observational as
    ```
    java -jar JSkyCalc.jar
    ```
+
 ![jskycalc-install]
 
 ## Customize site menu
@@ -39,6 +40,7 @@ Skycalc expedites the "time-and-the-sky" calculations needed by observational as
    ```
    jar -cvmf myManifest.mf JSkyCalc.jar .
    ```
+   
 ![jskycalc-custom]
 
 ## Environment setup

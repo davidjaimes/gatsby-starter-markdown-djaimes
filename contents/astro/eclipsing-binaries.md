@@ -60,7 +60,8 @@ time = hdu[1].data['TIME']
 flux = hdu[1].data['SAP_FLUX']
 plt.plot(time, flux, '.', markersize=1)
 ```
-![koi-3570-lightcurve]
+
+![koi-3570-lightcurve](../../src/images/koi-3570-lc.png)
 
 ## Phase Fold Lightcurve
 Arguably, one of the most important parameters to find for an eclipsing binary star system is the orbital period. There are many ways to find the period around the center of mass and the method I like to use is a multi-term Lomb-Scargle approach. For this system, I used the period published in Brewer et al. 2016. They found an orbital period of 3.649301 days. Phase folding the light curve with this orbital period yields the following plot. The secondary and primary eclipses are at about phase equal to 0.2 and 0.7, respectively.
@@ -69,7 +70,8 @@ period = 3.649301
 phase = (time - time[0]) / period % 1
 plt.plot(phase, flux, '.', markersize=1)
 ```
-![koi-3570-phasefold]
+
+![koi-3570-phasefold](../../src/images/koi-3570-pflc.png)
 
 ## References
 1. [Nasa Exoplanet Archive][1]
@@ -79,5 +81,3 @@ plt.plot(phase, flux, '.', markersize=1)
 [1]: https://exoplanetarchive.ipac.caltech.edu
 [2]: https://brew.sh/)
 [3]: https://www.astropy.org/
-[koi-3570-lightcurve]: ../../src/images/koi-3570-lc.png
-[koi-3570-phasefold]: ../../src/images/koi-3570-pflc.png

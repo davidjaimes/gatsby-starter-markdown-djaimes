@@ -18,7 +18,7 @@ and integrate systems more effectively.
 The first thing to install is Apple's command line tools.
 1. Launch the Terminal application found in your `Applications/Utilities` directory.
 2. Enter this install command:
-```
+```bash
 xcode-select --install
 ```
 3. A pop up window appears and press the Install button. After the installation is done you can enter the `gcc -version` command and something similar to this should print out:
@@ -31,3 +31,28 @@ InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 ```
 
 # Oh My Zsh
+Install oh-my-zsh now and use this link to [change themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes):
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+# Homebrew
+Install Homebrew now:
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+# Miniconda
+1. Download the latest bash file from the [Miniconda](https://docs.conda.io/en/latest/miniconda.html) page and install with the following command:
+```bash
+bash Miniconda3-latest-MacOSX-x86_64.sh
+```
+2. Update conda and initialize zsh environment for macOS Catalina users:
+```bash
+conda update conda
+conda init zsh
+```
+3. Install all Python libraries at once (NumPy and SciPy will also be installed):
+```bash
+conda install matplotlib pandas astropy notebook scikit-learn
+```

@@ -3,9 +3,19 @@
     "entry": "/",
     "name": "/",
     "child_entries": [
+      "About",
       "macOS",
       "Astronomy",
-      "Blog"
+      "Docs",
+      "Blog",
+      "Legal"
+    ]
+  },
+  {
+    "entry": "About",
+    "name": "About",
+    "items": [
+      "about"
     ]
   },
   {
@@ -24,11 +34,25 @@
     ]
   },
   {
+    "entry": "Docs",
+    "name": "Docs",
+    "items": [
+      "docs/linear-regression"
+    ]
+  },
+  {
     "entry": "Blog",
     "name": "Blog",
     "items": [
       "blog/first-blog",
       "blog/second-blog"
+    ]
+  },
+  {
+    "entry": "Legal",
+    "name": "Legal",
+    "items": [
+      "legal/terms"
     ]
   }
 ]
