@@ -1,10 +1,8 @@
 ---
-title: David Jaimes
+title: About Me
 sidebar: /
+showTitle: True
 ---
-<h1 align="center">
-  About Me
-</h1>
 <p align="center">Important highlights on my professional development.</p>
 
 ## Biography
